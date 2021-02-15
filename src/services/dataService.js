@@ -1,6 +1,6 @@
 export default class DataService {
     _data = {
-        projectRepo: "https://github.com/InsafKhamzin/portfolio",
+        projectRepo: "https://github.com/SabbyDude/portfolio",
         react95Repo: "https://github.com/React95/React95",
         items: [
             {
@@ -9,10 +9,10 @@ export default class DataService {
                 icon: 'info_bubble',
                 content: {
                     paragraphs: [
-                        "Hi! I am a Software Developer based in Toronto, just graduated from Seneca College and I am very excited to start my career in Canada. For the last several years I've been working as a Full Stack developer in a big FinTech company.",
-                        "I believe that friendly and respectful communication within a team is key to the company's success. With my experience in software development and database design, I think I would be a valuable asset to your project.",
-                        "The main technology I have been using is C# .NET. But recently I fell in love with Node.js and I use it for most of my side projects. Moreover, I am in a good relationship with React (this web-site runs on React btw) and really fascinated by Machine Learning and Big Data.",
-                        "When I am not in front of the computer, I usually do yoga, drink a specialty coffee and take quick walks in beatiful High Park."
+                        "Hi! I am a student at Amity University, Rajasthan, currently pursuing a Bachelor's degree in Computer Application at AUR, and I'm really eager to learn new things and meet new people. I'm learning coding and writing fiction, and I've tried animation and video editing as well.",
+                        "I grew up in love with two things, technology and stories, on a ground level, these two things are different from each other, however there are two traits they share, and they 're at the soul of these two things, Imagination and Creativity. Without them, people can't do anything in these two fields, and that's what I want to improve in myself, Imagination and Creativity.",
+                        "The major application I've been using is C, Python, and I'm also trained with Blender and Wondershare Filmora as well. But recently, my interest in Web Development is growing and I'm learning more about it, and I'm also writing stories and planning on building a PC soon and get into Data Structure and Algorithms.",
+                        "I'm currently working on a game, 'Labyrinth of Breughel', an 8-bit text based, choose your own adventure game with a music to keep you hooked, a demo for the game is available at 'Projects.txt'."
                     ]
                 }
             },
@@ -21,47 +21,26 @@ export default class DataService {
                 name: 'Resume.txt',
                 icon: 'notepad_2',
                 content: {
-                    resumeLink:"https://docs.google.com/document/d/1c_fPwOf4zo-vkSWJiCkSyiH2SZECb6JSeOSmgniaeQY/export?format=pdf",
+                    resumeLink:"https://drive.google.com/file/d/1uEOQN-EEEXAIskxU2S0McK2xwBqM3JRP/view?usp=sharing",
                     workExperience: [
                         {
-                            jobTitle: "Software Developer",
-                            company: "Webmoney",
-                            location: "Russia",
-                            period: "MAY 2017 – AUG 2019",
+                            jobTitle: "Bussiness Partner",
+                            company: "Shakti Infotech",
+                            location: "Agra",
+                            period: "JULY 2020 – SEP 2020",
                             accomplishments: [
-                                "Developed and maintained financial technology applications",
-                                "Planned and executed a full software development life cycle (SDLC) for each assigned project",
-                                "Successfully integrated virtual and prepaid card issuance which brought to the company more than 100000 users and increased revenue by 5%",
-                                "Planned tasks for 5 developers for future sprints according to Scrum methodology",
-                                "Technologies used: C#, ASP.NET Core, SQL Server, React.js, RESTful Web services, Docker, Redis"
+                                "I helped my father as a bussiness partner for 2 moths",
+                                "I interacted with the employees and managed the company during my time before beginning college"
                             ]
-                        },
-                        {
-                            jobTitle: ".NET Developer",
-                            company: "Soft Universe Labs",
-                            location: "Russia",
-                            period: "MAY 2016 – MAR 2017",
-                            accomplishments: [
-                                "Developed CRM systems for different small-medium businesses",
-                                "Reviewed applications in progress of development to ensure corporate development standards",
-                                "Successfully planned, developed and tested modules for agricultural CRM which are used by 80% of farmers in Kazan, Russia",
-                                "Technologies used: C#, ASP.NET, SQL Server, JQuery, Semantic UI"
-                            ]
-
                         }
                     ],
                     education: [
+                        
                         {
-                            credit: "Post-Graduate Database Application Development",
-                            place: "Seneca College, Canada, Toronto",
-                            gpa: "3.9/4.0 GPA",
-                            period: "SEPT 2019 – APR 2020"
-                        },
-                        {
-                            credit: "Bachelor in Software Engineering",
-                            place: "Kazan National Research Technical University, Russia",
-                            gpa: "3.8/4.0 GPA",
-                            period: "SEPT 2014 – AUG 2018"
+                            credit: "Bachelor in Computer Application",
+                            place: "Amity University,Rajasthan",
+                            
+                            period: "SEP 2020 – PRESENT"
                         }
                     ]
                 }
@@ -73,40 +52,11 @@ export default class DataService {
                 content: {
                     projects:[
                         {
-                            title:"Cards.Webmoney",
-                            description:"Cards.Webmoney is a system for issuing and managing prepaid and virtual payment cards. Users can issue a payment card within few minutes, after that the card will be delivered on an address or provided right away if it's virtual. Cards.Webmoney is integrated with different payment processing systems such as WaveCrest, PaySpark, IntraPay.",
-                            myRole: "creating gateways between Cards.Webmoney and processing systems, developing and testing new features in the user's dashboard, maintaining and refactoring the existing functionality.",
-                            techStack:"C#, ASP.NET, SQL Server, JavaScript, TeamCity CI",
-                            url:"https://cards.web.money/en"
-                        },
-                        {
-                            title:"Guarantee.Money",
-                            description:"Guarantee.money is an escrow system that helps people to safely make a deal on the internet. The service acts as a trusted party in the transaction between the seller and the buyer. During the transaction period, the service expects confirmation from both participants about the completion or violation of conditions.",
-                            myRole: "designing, developing and testing core project's functions. Assigning tasks and planning future sprints for other developers. Integrating different payment methods such as payment cards, e-wallets, crypto.",
-                            techStack: "C#, ASP.NET, React/Redux, SQL Server, Dapper ORM, TeamCity CI",
-                            url:"https://guarantee.money/"
-                        },
-                        {
-                            title:"Platron.Pro",
-                            description:"Platron.Pro is a mass payout service for organizations. It provides a full range of direct gateways to integrated money transfer systems, credit organizations, mobile operators, etc.",
-                            myRole:"Integrating mass payouts to mobile operators.",
-                            techStack: "C#, ASP.NET, SQL Server, Entity Framework",
-                            url:"https://www.platron.pro"
-                            
-                        },
-                        {
-                            title:"CryptoBot",
-                            description:"CryptoBot is a Telegram chatbot that provides updated info about every existing cryptocurrency.",
-                            techStack: "Node.js, Serverless, AWS S3, Telegram API",
-                            url:"https://t.me/crypto_info1_bot",
-                            repo:"https://github.com/InsafKhamzin/crypto-info-bot"
-                        },
-                        
-                        {
-                            title:"My Portfolio Site",
-                            description:"My personal website in old-school Windows95 design.",
-                            techStack: "React, GitHub pages",
-                            repo: "https://github.com/InsafKhamzin/portfolio",
+                            title:"Labyrinth of Breughel Demo",
+                            description:"It is an 8-bit text based choose your own adventure game, inspired heavily from the book 'Cave of Time'.",
+                            myRole: "As of now,everything in the game is done by me and planning to complete this with assisstance from a group",
+                            techStack:"HTML5, Twine 2",
+                            url:"http://sabbydude.github.io/lob"
                         },
                     ]                    
                 }
@@ -118,43 +68,39 @@ export default class DataService {
                 content: {
                     hard: [
                         {
-                            name: "C# .NET",
+                            name: "C",
+                            progress: 95
+                        },
+                        {
+                            name: "Python",
+                            progress: 88
+                        },
+                        {
+                            name: "Twine",
                             progress: 100
                         },
                         {
-                            name: "SQL Server",
-                            progress: 100
-                        },
-                        {
-                            name: "React/Redux",
-                            progress: 90
-                        },
-                        {
-                            name: "Node.js",
-                            progress: 90
-                        },
-                        {
-                            name: "Docker",
-                            progress: 90
-                        },
-                        {
-                            name: "MongoDB",
+                            name: "Blender",
                             progress: 80
                         },
                         {
-                            name: "AWS",
-                            progress: 70
+                            name: "Wondershare Filmora",
+                            progress: 100
                         },
                         {
-                            name: "Kubernetes",
-                            progress: 60
+                            name: "Story Writing",
+                            progress: 99
                         },
                         {
-                            name: "Hadoop",
+                            name: "HTML5",
                             progress: 50
+                        },
+                        {
+                            name: "2D Drawing",
+                            progress: 70
                         }
                     ],
-                    soft: "Analytical thinking, Teamwork, Creative Problem solving, Mangement, Leadership, Entrepreneurship"
+                    soft: "Analytical thinking, Teamwork, Creative, Problem solving, Logic Building, Entrepreneurship"
                 }
             },
             {
@@ -163,28 +109,16 @@ export default class DataService {
                 icon: 'inetcfg_2301',
                 content: {
                     emailText: "If you want to hire me or invite to a project, just email me on ",
-                    email: "khamzin.insaf@gmail.com",
+                    email: "incsabbydude@gmail.com",
                     socialText: "Or you can reach me out through social media:",
                     social: [
                         {
                             name: "FaLinkedin",
-                            link: "https://www.linkedin.com/in/insaf-khamzin-915237129/"
+                            link: "https://www.linkedin.com/in/sarthak-bansal-bb5675198/"
                         },
                         {
                             name: "FaGithub",
-                            link: "https://github.com/InsafKhamzin"
-                        },
-                        {
-                            name: "FaInstagram",
-                            link: "https://www.instagram.com/insafikus/"
-                        },
-                        {
-                            name: "FaTwitter",
-                            link: "https://twitter.com/InsafKhamzin"
-                        },
-                        {
-                            name: "FaMedium",
-                            link: "https://medium.com/@hamzin730insaf"
+                            link: "https://github.com/SabbyDude"
                         }
                     ]
                 }
